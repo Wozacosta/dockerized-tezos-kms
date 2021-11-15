@@ -1,0 +1,19 @@
+{
+  "name": "tezos kms",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "wozacosta <first.last@example.com>",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@tacoinfra/conseil-kms": "^1.1.1",
+    "conseiljs": "^5.0.9",
+    "conseiljs-softsigner": "*",
+    "express": "^4.16.1",
+    "loglevel": "^1.7.1",
+    "node-fetch": "^3.1.0"
+  }
+}
